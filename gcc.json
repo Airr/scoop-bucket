@@ -1,0 +1,69 @@
+{
+    "version": "10.2.0-6",
+    "description": "GNU Compiler Collection (Mingw-w64 port from MSYS2 project)",
+    "homepage": "http://mingw-w64.org/doku.php",
+    "license": "GPL-3.0-or-later,ZPL-2.1,...",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-binutils-2.36.1-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-crt-git-9.0.0.6105.f3855e2c-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-expat-2.2.10-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-fortran-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libgfortran-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.19.8.1-10-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gmp-6.2.1-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-headers-git-9.0.0.6105.f3855e2c-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-isl-0.23-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.16-2-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-9.0.0.6105.f3855e2c-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-make-4.3-1-any.pkg.tar.xz",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpc-1.2.1-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpfr-4.1.0-3-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-pkg-config-0.29.2-3-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-windows-default-manifest-6.4-3-any.pkg.tar.xz",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.11-9-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-winpthreads-git-9.0.0.6105.f3855e2c-1-any.pkg.tar.zst"
+            ],
+            "hash": [
+                "7e294fa4770ff8643cec4c09e4f71eb955ad3020bb2e30090ebc4ccd196d15ca",
+                "86d6132758220bc1e333303c887a84552de7a124bb144d8d1305b17af1dc8ee9",
+                "50cd229f8aed5ed4b0a066715a17d028f2898571975b24ac08dda70e8ad1d0bb",
+                "d36e0577f88ba29cd4f3c3fcb31429c5625040031ebb99a1540b44fc30cd287a",
+                "dfa86f79401cfc42fb3ce81a8a2bcac683e3378278ebf09383548d1f4091fd83",
+                "c4d06f60e84f2b0444342203c6dd933a78d30c3c4e5b09877865b2f400d3e5fc",
+                "ea89dd424e6e574c90b496ed28cc074d187ce33b306b1319809718df8eec9963",
+                "2fa2067672b22269ee8bdc4485b27537057adac3ed4d6d2db0043763f01e0816",
+                "2c4195d0cc0d4474e1349f202c0ec85d7cc9a5d39d02008913443b8a3dea2514",
+                "2f6468a229e299665166ea1ca2bb9eba895a70a454af524a0728c34cbfcab9da",
+                "0eaac0243d0c8b896d7c36437b832f8642e7e5a9e8024ea11e42495165ede964",
+                "44d1f338012a8f503eb31ad8941129df09d3d6307f688f30d612eef3b17a285b",
+                "e65a4a46e55b86f0991ddc6aa8c79d8f5cb71cbcb876726c2e6640f8bd145736",
+                "7863472b0763a1a6ca70bdcc6e98df3b2016b221c9da5fe264b28d1c6e1c236c",
+                "8c69669df65257ec8abbb38fb4110371da8f73c60f065ecd162811f59489c11c",
+                "f93f25b3bea88a51cd3806f6654b11e675b926c6fe99e55a8ce2348e7a156ad1",
+                "867c946174c2a2db9f7836edf68aa317c8453b1417ff7851d994f99015e7a9a5",
+                "6c0ea4adcef503dc8174e9d4d70a10aee8295d620db4494f78fa512df0589dcf",
+                "9da9ebafaef832dba2f442ad44d9ae8759784b86478dcbe326500195f8ea6339",
+                "496fe729d7bddd2b752f3f3abf551e1886887d1e50d0823058ac66922468ac6c"
+            ],
+            "pre_install": [
+                "Move-Item \"$dir\\mingw64\\*\" \"$dir\"",
+                "Remove-Item \"$dir\\mingw64\", \"$dir\\.*\""
+            ],
+            "post_install": [
+                "ensure \"$dir\\bin\\bak\" | Out-Null",
+                "Move-Item \"$dir\\bin\\python*.exe\" \"$dir\\bin\\bak\""
+            ]
+        }
+    },
+    "bin": [
+        [
+            "bin\\mingw32-make.exe",
+            "make"
+        ]
+    ],
+    "env_add_path": "bin"
+}
